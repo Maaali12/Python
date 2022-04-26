@@ -1,2 +1,2 @@
 # Python
-Some Random Python scripts by me 
+Here are some random Python scripts i made.
