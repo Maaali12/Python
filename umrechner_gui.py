@@ -69,16 +69,16 @@ fenster.title("Temperatur Umwandler")
 info = Label(fenster, justify = LEFT, font=("Helvetica", 16),
              text="""\
         TEMPERATUR UMWANDLER
-        1. Gewünschte Umrechnung wählen.
+        1. Gewünschte Umrechnung asuswählen.
         2. Temperatur eingeben.
         3. Taste "Umrechnen" drücken.""")
 
-u1 = "Celsius -> Kelvin"
-u2 = "Celsius -> Fahrenheit"
-u3 = "Kelvin -> Celsius"
-u4 = "Kelvin -> Fahrenheit"
-u5 = "Fahrenheit -> Celsius"
-u6 = "Fahrenheit -> Kelvin"
+u1 = "Celsius --> Kelvin"
+u2 = "Celsius --> Fahrenheit"
+u3 = "Kelvin --> Celsius"
+u4 = "Kelvin --> Fahrenheit"
+u5 = "Fahrenheit --> Celsius"
+u6 = "Fahrenheit --> Kelvin"
 
 variable = StringVar(fenster)
 variable.set(u1) # default value
