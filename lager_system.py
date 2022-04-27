@@ -1,6 +1,6 @@
 import sys
 
-Bestand = {"Bananen": 1, "Äpfel": 2, "Salz": 99, "Ananas": 28,  } #Liste mit vorhandenen gegenständen
+Bestand = {"Bananen": 1, "Äpfel": 2, "Salz": 99, "Ananas": 28, } #Liste mit vorhandenen gegenständen
 paswort = input("Passwort bitte eingeben:")
 
 def error_ausgabe():
