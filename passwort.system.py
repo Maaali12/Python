@@ -1,13 +1,13 @@
-paswort = input("Passwort bitte eingeben: ")
 key = "12345"
 
-def passowrt_abfrage():
+def passwort_abfrage():
+    passwort = input("Passwort bitte eingeben: ")
     while True:
-        if paswort == key:
+        if passwort == key:
             print("Passwort korrekt.")
             break
-    else:
-        print("Paswort Falsch!")
-        quit()
+        else:
+            print("Falsches Passwort!")
+            quit()
 
-passowrt_abfrage()
+passwort_abfrage()
